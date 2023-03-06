@@ -1,9 +1,11 @@
 import styles from "./navbar.module.css";
 import { BsFillCartFill } from "react-icons/bs";
+import logo from './src/img/logo.png';
 
 const Navbar = () => {
   return (
     <nav className={styles.container}>
+        <img className={styles.logo} src={logo} alt="Logo"/>
         <p>Inicio</p>
         <p>Nuevo!</p>
         <p>Colección</p>
