@@ -1,0 +1,14 @@
+
+.container{
+    background-color: #ffded3;
+    color: #916b6b;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    font-family:Sans-serif;
+  }
+  
+.carrito{
+    display: flex;
+    padding: 10px;
+  }
